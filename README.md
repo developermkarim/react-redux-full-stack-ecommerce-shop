@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# Getting Started with React-Redux-Full-Stack-Eshop
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## The technology I have includes here
+1. React
+2. React Icons
+3. Google Firebase authentication
+4. React-toastify
+5. 
+
 
 ### `npm start`
 
