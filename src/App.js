@@ -1,10 +1,20 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.scss";
+import {Header, Footer} from './components';
+import {Home, Contact} from "./pages";
 
 function App() {
   return (
-    <div>
-      <h1>Hello World!!!</h1>
-    </div>
+    <>
+      <BrowserRouter>
+      <Header/>
+<Routes>
+  <Route path="/" element={<Home/> }/>
+  <Route path="/contact" element={<Contact/> }/>
+</Routes>
+      <Footer/>
+      </BrowserRouter>
+    </>
   );
 }
 
